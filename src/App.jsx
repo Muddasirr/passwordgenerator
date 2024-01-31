@@ -1,18 +1,20 @@
-import logo from './logo.svg';
-import UserContextProvider from './context/UserContextProvider';
-import { useState,useCallback, useEffect,useRef } from 'react';
-import Login from './components/Login';
-import Profile from './components/Profile';
+import ThemeBtn from "./components/ThemeBtn";
+import { ThemeProvider } from "./contexts/theme";
+import {useEffect,useState} from "react"
+import Card from "./components/Card";
+
 
 function App() {
-  return(
- 
-    <UserContextProvider>
-      <Login/>
-      <Profile/>
-    </UserContextProvider>
 
-  
+
+
+
+
+  return(
+ <div>
+
+    
+ </div>
   )
     
  
